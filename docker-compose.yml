@@ -1,7 +1,8 @@
 services:
   muse-studio:
     build:
-      context: https://github.com/wrldwidehq-prsnl/muse-studio.git#main
+      context: .
+    image: muse-studio:local
     container_name: muse-studio
     restart: unless-stopped
     environment:
