@@ -1,0 +1,86 @@
+{
+  "slug": "muse-svetistefan",
+  "brandMark": "MUSE",
+  "name": "Muse Restaurant & Bar",
+  "city": "Sveti Stefan, Montenegro",
+  "phone": "+382 33 681 590",
+  "phoneHref": "tel:+38233681590",
+  "email": "marketing@villageba.com",
+  "address": "Vukice Mitrovic, Sveti Stefan 86315",
+  "parent": { "name": "Villa Geba", "url": "https://www.villageba.com" },
+  "rating": 4.3,
+  "reviewCount": 130,
+  "design": {
+    "name": "Muse Moonlit",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "colors": {
+      "bg": "#0F0E11",
+      "surface": "#1C1B1F",
+      "text": "#F7F5F3",
+      "muted": "#B29575",
+      "accent": "#B29575",
+      "accent2": "#6E5F4A",
+      "border": "rgba(255,255,255,0.08)",
+      "input": "rgba(255,255,255,0.14)",
+      "radius": "12px"
+    }
+  },
+  "images": {
+    "hero": "https://www.villageba.com/wp-content/uploads/2024/10/apollonia-banner-scaled-e1704870906347.jpg",
+    "story": "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg",
+    "gallery": [
+      "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/07/junior.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/10/apollonia-banner-scaled-e1704870906347.jpg"
+    ]
+  },
+  "hero": {
+    "badge": "Villa Geba · Sveti Stefan",
+    "title": "Moonlit Dining on the Adriatic",
+    "description": "An intimate fine-dining experience where Mediterranean elegance meets Montenegrin hospitality — perched above the pristine waters of Sveti Stefan."
+  },
+  "experience": {
+    "kicker": "A Symphony of Flavours",
+    "title": "Crafted by the Sea, Served by Moonlight",
+    "body": "Set within the boutique Villa Geba, Muse draws on the day's Adriatic catch and the orchards of the Montenegrin coast. Each plate is a quiet study in restraint and craft — paired with refined wines and the slow rhythm of a coastal evening.",
+    "values": [
+      { "t": "Of the Coast", "d": "Every plate begins with the day's Adriatic catch and the orchards of the Montenegrin shore." },
+      { "t": "Quiet Luxury", "d": "No spectacle — only craft, restraint, and the slow rhythm of a coastal evening." },
+      { "t": "A Sense of Place", "d": "Dining woven into Villa Geba and the moonlit waters of Sveti Stefan." }
+    ]
+  },
+  "menu": [
+    { "title": "Starters", "items": [
+      { "name": "Adriatic Crudo", "desc": "Day-boat sea bass, citrus, Montenegrin olive oil", "price": "€18" },
+      { "name": "Octopus & Fava", "desc": "Slow-cooked octopus, broad-bean purée, smoked paprika", "price": "€22" },
+      { "name": "Burrata della Costa", "desc": "Stracciatella, fig, toasted pine, aged balsamic", "price": "€16" }
+    ]},
+    { "title": "From the Adriatic", "items": [
+      { "name": "Black Risotto", "desc": "Cuttlefish ink, scampi, aged parmesan", "price": "€28" },
+      { "name": "Whole Sea Bream", "desc": "Salt-baked, herbs, lemon, sea vegetables", "price": "€34" },
+      { "name": "Grilled Langoustines", "desc": "Garlic butter, chili, charred lemon", "price": "€38" }
+    ]},
+    { "title": "From the Land", "items": [
+      { "name": "Lamb Under the Bell", "desc": "Montenegrin peka, root vegetables, rosemary jus", "price": "€32" },
+      { "name": "Aged Ribeye", "desc": "300g, smoked sea salt, bone-marrow butter", "price": "€42" }
+    ]},
+    { "title": "Desserts", "items": [
+      { "name": "Lattice Moon Panna Cotta", "desc": "Vanilla bean, wild-fig compote", "price": "€12" },
+      { "name": "Dark Chocolate & Olive Oil", "desc": "Sea salt, candied orange", "price": "€13" }
+    ]},
+    { "title": "Wine & Cocktails", "items": [
+      { "name": "Coastal Wine Flight", "desc": "Three Montenegrin & Italian pours", "price": "€24" },
+      { "name": "Moonlit Negroni", "desc": "Barrel-aged, orange bitters, Adriatic herbs", "price": "€14" }
+    ]}
+  ],
+  "reviews": [
+    { "name": "Elena Marković", "role": "Dinner guest", "company": "Sveti Stefan", "rating": 5, "image": "https://www.villageba.com/wp-content/uploads/2024/07/junior.jpg", "testimonial": "An unforgettable evening — the sea bass was flawless and the terrace at dusk is pure magic. Service that anticipates every need." },
+    { "name": "James Whitfield", "role": "Traveller", "company": "London", "rating": 5, "image": "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg", "testimonial": "The most refined dining on the Montenegrin coast. Quiet luxury, exquisite Adriatic flavours, and a wine list to linger over." },
+    { "name": "Sofia Conti", "role": "Returning guest", "company": "Milan", "rating": 4, "image": "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg", "testimonial": "Muse turns dinner into a slow, candlelit ritual. The black risotto and the moonlit views keep drawing us back." },
+    { "name": "Marko Petrović", "role": "Local", "company": "Budva", "rating": 5, "image": "https://www.villageba.com/wp-content/uploads/2024/07/junior.jpg", "testimonial": "Peka lamb under the bell, done the proper way. This is how the coast should taste — and the room is beautiful." },
+    { "name": "Amelie Rousseau", "role": "Anniversary dinner", "company": "Paris", "rating": 5, "image": "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg", "testimonial": "We came for our anniversary and left speechless. Every detail, from the lighting to the langoustines, was perfect." },
+    { "name": "Daniel Berg", "role": "Wine lover", "company": "Berlin", "rating": 4, "image": "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg", "testimonial": "A genuinely thoughtful Montenegrin and Italian list, poured by people who know it. The octopus starter alone is worth the trip." }
+  ]
+}

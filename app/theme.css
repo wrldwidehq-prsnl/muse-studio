@@ -1,0 +1,24 @@
+/* AUTO-GENERATED from design/active.design.md — do not edit by hand. */
+/* Source design system: Muse Moonlit */
+:root, .dark {
+  --background: #0F0E11;
+  --foreground: #F7F5F3;
+  --card: #1C1B1F;
+  --card-foreground: #F7F5F3;
+  --popover: #1C1B1F;
+  --popover-foreground: #F7F5F3;
+  --primary: #B29575;
+  --primary-foreground: #0F0E11;
+  --secondary: #1C1B1F;
+  --secondary-foreground: #F7F5F3;
+  --muted: #1C1B1F;
+  --muted-foreground: #B29575;
+  --accent: #6E5F4A;
+  --accent-foreground: #F7F5F3;
+  --destructive: #DC2626;
+  --destructive-foreground: #F7F5F3;
+  --border: rgba(255,255,255,0.08);
+  --input: rgba(255,255,255,0.14);
+  --ring: #B29575;
+  --radius: 12px;
+}

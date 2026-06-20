@@ -1,0 +1,34 @@
+services:
+  muse-studio:
+    build:
+      context: https://github.com/wrldwidehq-prsnl/muse-studio.git#main
+    container_name: muse-studio
+    restart: unless-stopped
+    environment:
+      - SITES_DIR=/app/sites
+      - SITE_UPSERT_TOKEN=${SITE_UPSERT_TOKEN}
+    volumes:
+      - muse_sites:/app/sites
+    networks:
+      - root_web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=root_web"
+      - "traefik.http.routers.muse-http.rule=Host(`studio.wrldwide.agency`)"
+      - "traefik.http.routers.muse-http.entrypoints=web"
+      - "traefik.http.routers.muse-http.middlewares=muse-https"
+      - "traefik.http.middlewares.muse-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.muse-https.redirectscheme.permanent=true"
+      - "traefik.http.routers.muse.rule=Host(`studio.wrldwide.agency`)"
+      - "traefik.http.routers.muse.entrypoints=websecure"
+      - "traefik.http.routers.muse.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.muse.service=muse-svc"
+      - "traefik.http.services.muse-svc.loadbalancer.server.port=3000"
+
+volumes:
+  muse_sites:
+    driver: local
+
+networks:
+  root_web:
+    external: true

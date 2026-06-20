@@ -1,0 +1,119 @@
+{
+  "slug": "lumen-rooftop",
+  "brandMark": "LUMEN",
+  "name": "Lumen Rooftop & Grill",
+  "city": "Kotor, Montenegro",
+  "phone": "+382 32 555 120",
+  "phoneHref": "tel:+38232555120",
+  "email": "hello@lumenkotor.me",
+  "address": "Stari Grad, Kotor 85330",
+  "parent": {
+    "name": "",
+    "url": ""
+  },
+  "rating": 4.7,
+  "reviewCount": 212,
+  "design": {
+    "name": "Lumen Emerald",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Manrope",
+    "colors": {
+      "bg": "#0B1410",
+      "surface": "#13211B",
+      "text": "#F2F7F3",
+      "muted": "#8FB7A3",
+      "accent": "#3FBF8F",
+      "accent2": "#1F6B4E",
+      "border": "rgba(255,255,255,0.08)",
+      "input": "rgba(255,255,255,0.14)",
+      "radius": "16px"
+    }
+  },
+  "images": {
+    "hero": "https://www.villageba.com/wp-content/uploads/2024/10/apollonia-banner-scaled-e1704870906347.jpg",
+    "story": "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg",
+    "gallery": [
+      "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/07/junior.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg",
+      "https://www.villageba.com/wp-content/uploads/2024/10/apollonia-banner-scaled-e1704870906347.jpg"
+    ]
+  },
+  "hero": {
+    "badge": "Old Town · Kotor",
+    "title": "Dining Above the Bay",
+    "description": "A rooftop grill over the medieval rooftops of Kotor — wood-fire cooking, bay views, and an emerald evening glow."
+  },
+  "experience": {
+    "kicker": "Fire & View",
+    "title": "Wood-Fire, Above the Bay",
+    "body": "Lumen brings open-flame cooking to a rooftop over Kotor Old Town, with sweeping views of the bay and the mountains beyond.",
+    "values": [
+      {
+        "t": "Wood-Fired",
+        "d": "Everything touched by open flame and Adriatic smoke."
+      },
+      {
+        "t": "Above It All",
+        "d": "A rooftop perch over the medieval rooftops of Kotor."
+      },
+      {
+        "t": "Bay to Table",
+        "d": "The day catch and mountain produce, simply done."
+      }
+    ]
+  },
+  "menu": [
+    {
+      "title": "From the Fire",
+      "items": [
+        {
+          "name": "Charred Octopus",
+          "desc": "Smoked paprika, lemon, fennel",
+          "price": "€24"
+        },
+        {
+          "name": "Whole Branzino",
+          "desc": "Wood-grilled, herbs, olive oil",
+          "price": "€32"
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Burnt Honey Tart",
+          "desc": "Bay-leaf cream",
+          "price": "€11"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Ana Kovač",
+      "role": "Guest",
+      "company": "Kotor",
+      "rating": 5,
+      "image": "https://www.villageba.com/wp-content/uploads/2024/07/junior.jpg",
+      "testimonial": "The view and the fire-grilled branzino were unreal."
+    },
+    {
+      "name": "Tom Reilly",
+      "role": "Traveller",
+      "company": "Dublin",
+      "rating": 5,
+      "image": "https://www.villageba.com/wp-content/uploads/2024/07/double-room.jpg",
+      "testimonial": "Worth the climb through Old Town. Emerald lighting, smoky everything."
+    },
+    {
+      "name": "Lea Novak",
+      "role": "Local",
+      "company": "Tivat",
+      "rating": 4,
+      "image": "https://www.villageba.com/wp-content/uploads/2024/07/selene-suite.jpg",
+      "testimonial": "A genuinely special rooftop. The octopus is a must."
+    }
+  ]
+}
